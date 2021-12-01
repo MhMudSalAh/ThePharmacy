@@ -25,7 +25,7 @@ class SliderCell: UICollectionViewCell {
     }
     
     func setupCell() {
-        imgSlider.loadImage(slider?.image)
+        imgSlider.loadImage(slider?.imageURL())
     }
     
     override func awakeFromNib() {

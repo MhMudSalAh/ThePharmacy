@@ -23,11 +23,11 @@ final class Api {
     var BASE_URL: String {
         switch config {
         case .development:
-            return "https://youmeda.com/api/Pharmacy/"
+            return "http://40.127.194.127:5656/Pharmacy/"
         case .stage:
-            return "https://youmeda.com/api/Pharmacy/"
+            return "http://40.127.194.127:5656/Pharmacy/"
         case .release:
-            return "https://youmeda.com/api/Pharmacy/"
+            return "http://40.127.194.127:5656/Pharmacy/"
         }
     }
     
@@ -42,4 +42,13 @@ final class Api {
     // MARK:- OFFERS
     
     let SERVICE_HOME_OFFERS = "Get_Pharmacy_Promotions_Category"
+}
+
+
+// MARK:- IMAGE PATh
+extension Api {
+    
+    func getImagePath(_ id: Int) -> String {
+        return "https://youmeda.com/Uploads/PharmactPromoCategories/\(id).png"
+    }
 }
