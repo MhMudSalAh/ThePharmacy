@@ -1,0 +1,30 @@
+/*
+  Localizable.strings
+  ThePharmacy
+
+  Created by MhMuD SalAh on 30/11/2021.
+  Copyright © 2021 MhMuD SalAh. All rights reserved.
+*/
+
+"app_name" = "The Pharmacy";
+"home" = "Home";
+"categories" = "Categories";
+"search_for_products" = "Search with the name of medicine or products";
+"no_internet_connection" = "No internet connection!";
+"success" = "Success!";
+"error" = "Error!";
+"error_description" = "Something went wrong. Please check your connection and try again";
+"try_again" = "Try again";
+"order_with_image" = "Order With Product Image";
+"order_with_receipt" = "Attach a medical prescription";
+"language" = "Language";
+"current_language" = "English";
+"_current_language" = "العربية";
+"push_notifications" = "Push notifications";
+"english" = "English";
+"arabic" = "العربية";
+"change_language_message" = "Select your language";
+"all_offers" = "All offers";
+"new_offers" = "New offers";
+"cancel" = "Cancel";
+"sorry_no_offers" = "Sorry, no offers at this time.";

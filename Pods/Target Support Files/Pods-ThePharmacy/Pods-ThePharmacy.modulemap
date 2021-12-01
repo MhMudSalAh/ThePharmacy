@@ -1,0 +1,6 @@
+framework module Pods_ThePharmacy {
+  umbrella header "Pods-ThePharmacy-umbrella.h"
+
+  export *
+  module * { export * }
+}

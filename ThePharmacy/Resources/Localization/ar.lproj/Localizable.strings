@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  ThePharmacy
+
+  Created by MhMuD SalAh on 30/11/2021.
+  Copyright © 2021 MhMuD SalAh. All rights reserved.
+*/
+
+"app_name" = "الصيدلية";
+"home" = "الرئيسية";
+"categories" = "التصنيفات";
+"search_for_products" = "إبحث بإسم الدواء أو المنتجات";
+"no_internet_connection" = "لا يوجد أنترنت!";
+"success" = "تم بنجاح!";
+"error" = "حدث خطأ!";
+"error_description" = "حدث خطأ، من فضلك أفحص اتصالك بالأنترنت، وحاول مرة أخرى";
+"try_again" = "حاول مرة اخرى";
+"order_with_image" = "أطلب بصورة المنتج";
+"order_with_receipt" = "إرفاق روشتة طبية";
+"language" = "اللغة";
+"current_language" = "العربية";
+"_current_language" = "English";
+"push_notifications" = "ارسال إشعارات";
+"english" = "الإنجليزية";
+"arabic" = "عربي";
+"change_language_message" = "اختيار اللغة";
+"all_offers" = "كل العروض";
+"new_offers" = "العروض الجديدة";
+"cancel" = "إلغاء";
+"sorry_no_offers" = "عفواً، لا توجد عروض في هذا الوقت";

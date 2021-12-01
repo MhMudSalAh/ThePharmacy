@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SliderCell" id="gTV-IL-0wX" customClass="SliderCell" customModule="ThePharmacy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="199"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="199"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="anT-sQ-syq">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="199"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="USN-8T-F8P">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="199"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="USN-8T-F8P" firstAttribute="top" secondItem="anT-sQ-syq" secondAttribute="top" id="3zg-hC-cXg"/>
+                            <constraint firstAttribute="bottom" secondItem="USN-8T-F8P" secondAttribute="bottom" id="FPo-jD-0h8"/>
+                            <constraint firstItem="USN-8T-F8P" firstAttribute="leading" secondItem="anT-sQ-syq" secondAttribute="leading" id="ZqH-Vr-lCq"/>
+                            <constraint firstAttribute="trailing" secondItem="USN-8T-F8P" secondAttribute="trailing" id="wgs-hh-GSb"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="anT-sQ-syq" secondAttribute="trailing" id="5d8-rw-xke"/>
+                <constraint firstItem="anT-sQ-syq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="HXx-h9-hDF"/>
+                <constraint firstAttribute="bottom" secondItem="anT-sQ-syq" secondAttribute="bottom" id="Jw1-9S-KlN"/>
+                <constraint firstItem="anT-sQ-syq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ubd-yo-txN"/>
+            </constraints>
+            <size key="customSize" width="374" height="199"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imgSlider" destination="USN-8T-F8P" id="Y9a-mg-oA4"/>
+                <outlet property="viewContainer" destination="anT-sQ-syq" id="sWy-Fb-AqN"/>
+            </connections>
+            <point key="canvasLocation" x="157.97101449275362" y="148.99553571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,26 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.9)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - SkeletonView (1.26.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SDWebImage
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - SDWebImage
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SkeletonView: 6b62a8ddbc64abb113ea3243e4a9979e5750f147
+
+PODFILE CHECKSUM: 3e928d60c16c05475fcb005cf8fe2f078d050790
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Black.ttf">
+            <string>Cairo-Black</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Splash Controller-->
+        <scene sceneID="gMR-8k-hqb">
+            <objects>
+                <viewController storyboardIdentifier="SplashController" id="xc4-yY-fKi" customClass="SplashController" customModule="ThePharmacy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y7G-DG-7Xi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQa-4T-SV7">
+                                <rect key="frame" x="207" y="453" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Cairo-Black" family="Cairo" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0039215686269999999" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VHL-ou-j8g"/>
+                        <color key="backgroundColor" red="0.8901960784313725" green="0.96862745098039216" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="lQa-4T-SV7" firstAttribute="centerY" secondItem="VHL-ou-j8g" secondAttribute="centerY" id="XM7-DI-qUt"/>
+                            <constraint firstItem="lQa-4T-SV7" firstAttribute="centerX" secondItem="VHL-ou-j8g" secondAttribute="centerX" id="ztr-qt-ogI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblTitle" destination="lQa-4T-SV7" id="Q2p-Ow-z8k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p4q-1p-LsC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88" y="140"/>
+        </scene>
+    </scenes>
+</document>
